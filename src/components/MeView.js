@@ -839,7 +839,7 @@ const MeView = () => {
           
           <ShowsGrid className="reveal">
             <ShowCard>
-              <ShowPoster bg="/anime_demonslayer.png">
+              <ShowPoster bg="/anime_demonslayer.webp">
                 <div className="cover-title">DEMON SLAYER</div>
               </ShowPoster>
               <ShowMeta>
@@ -855,7 +855,7 @@ const MeView = () => {
             </ShowCard>
 
             <ShowCard>
-              <ShowPoster bg="/anime_onepunch.png">
+              <ShowPoster bg="/anime_onepunch.webp">
                 <div className="cover-title">ONE PUNCH MAN</div>
               </ShowPoster>
               <ShowMeta>
@@ -871,7 +871,7 @@ const MeView = () => {
             </ShowCard>
 
             <ShowCard>
-              <ShowPoster bg="/anime_sololeveling.png">
+              <ShowPoster bg="/anime_sololeveling.webp">
                 <div className="cover-title">SOLO LEVELING</div>
               </ShowPoster>
               <ShowMeta>
@@ -887,7 +887,7 @@ const MeView = () => {
             </ShowCard>
 
             <ShowCard>
-              <ShowPoster bg="/anime_myhero.png">
+              <ShowPoster bg="/anime_myhero.webp">
                 <div className="cover-title">MY HERO ACADEMIA</div>
               </ShowPoster>
               <ShowMeta>
@@ -903,7 +903,7 @@ const MeView = () => {
             </ShowCard>
 
             <ShowCard>
-              <ShowPoster bg="/anime_horimiya.png">
+              <ShowPoster bg="/anime_horimiya.webp">
                 <div className="cover-title">HORIMIYA</div>
               </ShowPoster>
               <ShowMeta>
@@ -919,7 +919,7 @@ const MeView = () => {
             </ShowCard>
 
             <ShowCard>
-              <ShowPoster bg="/anime_yourname.png">
+              <ShowPoster bg="/anime_yourname.webp">
                 <div className="cover-title">YOUR NAME</div>
               </ShowPoster>
               <ShowMeta>
@@ -935,7 +935,7 @@ const MeView = () => {
             </ShowCard>
 
             <ShowCard>
-              <ShowPoster bg="/anime_suzume.png">
+              <ShowPoster bg="/anime_suzume.webp">
                 <div className="cover-title">SUZUME</div>
               </ShowPoster>
               <ShowMeta>
@@ -951,7 +951,7 @@ const MeView = () => {
             </ShowCard>
 
             <ShowCard>
-              <ShowPoster bg="/anime_chainsaw.png">
+              <ShowPoster bg="/anime_chainsaw.webp">
                 <div className="cover-title">CHAINSAW MAN</div>
               </ShowPoster>
               <ShowMeta>
@@ -1003,23 +1003,23 @@ const MeView = () => {
             </GamerCard>
             
             <GamesList>
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_valorant.png">
+              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_valorant.webp">
                 <span className="game-title">Valorant</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_cricket.png">
+              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_cricket.webp">
                 <span className="game-title">Cricket 19</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_gta5.png">
+              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_gta5.webp">
                 <span className="game-title">GTA 5</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_forza.png">
+              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_forza.webp">
                 <span className="game-title">Forza Horizon 6</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_chameleon.png">
+              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_chameleon.webp">
                 <span className="game-title">Meccha Chameleon</span>
               </GameCard>
             </GamesList>

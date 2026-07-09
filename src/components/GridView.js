@@ -230,7 +230,7 @@ const GridView = () => {
       date: "05/2025",
       gradient: "linear-gradient(135deg, #10061e, #290f4e)",
       color: "#a855f7",
-      bg: "/project_aircraft.png",
+      bg: "/project_aircraft.webp",
       icon: <FaPlane />,
       label: "AIRCRAFT",
       github: "https://github.com/itz-abhijeet"

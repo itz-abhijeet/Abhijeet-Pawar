@@ -136,35 +136,35 @@ const SplashScreen = ({ onComplete }) => {
 
   // Curated list of images
   const col1 = [
-    '/game_valorant.png',
-    '/anime_demonslayer.png',
-    '/project_aircraft.png',
-    '/game_cricket.png',
-    '/anime_onepunch.png'
+    '/game_valorant.webp',
+    '/anime_demonslayer.webp',
+    '/project_aircraft.webp',
+    '/game_cricket.webp',
+    '/anime_onepunch.webp'
   ];
   
   const col2 = [
-    '/anime_sololeveling.png',
-    '/game_gta5.png',
-    '/anime_myhero.png',
-    '/game_forza.png',
-    '/anime_horimiya.png'
+    '/anime_sololeveling.webp',
+    '/game_gta5.webp',
+    '/anime_myhero.webp',
+    '/game_forza.webp',
+    '/anime_horimiya.webp'
   ];
 
   const col3 = [
-    '/anime_yourname.png',
-    '/developer_portrait.png',
-    '/anime_suzume.png',
-    '/game_chameleon.png',
-    '/anime_chainsaw.png'
+    '/anime_yourname.webp',
+    '/developer_portrait.webp',
+    '/anime_suzume.webp',
+    '/game_chameleon.webp',
+    '/anime_chainsaw.webp'
   ];
 
   const col4 = [
-    '/game_valorant.png',
-    '/anime_demonslayer.png',
-    '/project_aircraft.png',
-    '/game_gta5.png',
-    '/anime_onepunch.png'
+    '/game_valorant.webp',
+    '/anime_demonslayer.webp',
+    '/project_aircraft.webp',
+    '/game_gta5.webp',
+    '/anime_onepunch.webp'
   ];
 
   useEffect(() => {
