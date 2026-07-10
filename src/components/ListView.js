@@ -180,29 +180,29 @@ const DiagonalArrow = () => (
 
 const ListView = () => {
   const filmData = [
-    { title: "Inception ★", category: "Sci-Fi / Thriller", detail: "2010", action: "Trailer", link: "https://youtube.com" },
-    { title: "Interstellar", category: "Sci-Fi / Drama", detail: "2014", action: "Trailer", link: "https://youtube.com" },
-    { title: "Obsession", category: "Mystery / Thriller", detail: "1976", action: "Trailer", link: "https://youtube.com" },
-    { title: "The Matrix", category: "Sci-Fi / Action", detail: "1999", action: "Trailer", link: "https://youtube.com" }
+    { title: "Inception ★", category: "Sci-Fi / Thriller", detail: "2010" },
+    { title: "Interstellar", category: "Sci-Fi / Drama", detail: "2014" },
+    { title: "Obsession", category: "Mystery / Thriller", detail: "2026" },
+    { title: "The Matrix", category: "Sci-Fi / Action", detail: "1999" }
   ];
 
   const animeData = [
-    { title: "Demon Slayer ★", category: "Dark Fantasy / Action", detail: "2019–Present", action: "Trailer", link: "https://youtube.com" },
-    { title: "One Punch Man", category: "Superhero / Comedy", detail: "2015–Present", action: "Trailer", link: "https://youtube.com" },
-    { title: "Solo Leveling", category: "Action / Fantasy", detail: "2024–Present", action: "Trailer", link: "https://youtube.com" },
-    { title: "My Hero Academia", category: "Action / Sci-Fi", detail: "2016–Present", action: "Trailer", link: "https://youtube.com" },
-    { title: "Horimiya", category: "Slice of Life / Romance", detail: "2021", action: "Trailer", link: "https://youtube.com" },
-    { title: "Your Name", category: "Romance / Fantasy", detail: "2016", action: "Trailer", link: "https://youtube.com" },
-    { title: "Suzume", category: "Adventure / Fantasy", detail: "2022", action: "Trailer", link: "https://youtube.com" },
-    { title: "Chainsaw Man", category: "Dark Fantasy / Action", detail: "2022–Present", action: "Trailer", link: "https://youtube.com" }
+    { title: "Demon Slayer ★", category: "Dark Fantasy / Action", detail: "2019–Present" },
+    { title: "One Punch Man", category: "Superhero / Comedy", detail: "2015–Present" },
+    { title: "Solo Leveling", category: "Action / Fantasy", detail: "2024–Present" },
+    { title: "My Hero Academia", category: "Action / Sci-Fi", detail: "2016–Present" },
+    { title: "Horimiya", category: "Slice of Life / Romance", detail: "2021" },
+    { title: "Your Name", category: "Romance / Fantasy", detail: "2016" },
+    { title: "Suzume", category: "Adventure / Fantasy", detail: "2022" },
+    { title: "Chainsaw Man", category: "Dark Fantasy / Action", detail: "2022–Present" }
   ];
 
   const gameData = [
-    { title: "Valorant ★", category: "FPS / Tactical Shooter", detail: "Riot Games", action: "Trailer", link: "https://youtube.com" },
-    { title: "Cricket 19", category: "Sports / Simulation", detail: "Big Ant Studios", action: "Trailer", link: "https://youtube.com" },
-    { title: "GTA 5", category: "Action / Adventure", detail: "Rockstar Games", action: "Trailer", link: "https://youtube.com" },
-    { title: "Forza Horizon 6", category: "Racing / Simulation", detail: "Playground Games", action: "Trailer", link: "https://youtube.com" },
-    { title: "Meccha Chameleon", category: "Sci-Fi / Platformer", detail: "Indie Studio", action: "Trailer", link: "https://youtube.com" }
+    { title: "Valorant ★", category: "FPS / Tactical Shooter", detail: "Riot Games" },
+    { title: "Cricket 19", category: "Sports / Simulation", detail: "Big Ant Studios" },
+    { title: "GTA 5", category: "Action / Adventure", detail: "Rockstar Games" },
+    { title: "Forza Horizon 6", category: "Racing / Simulation", detail: "Playground Games" },
+    { title: "Meccha Chameleon", category: "Sci-Fi / Platformer", detail: "Indie Studio" }
   ];
 
   return (
@@ -232,13 +232,10 @@ const ListView = () => {
                 <div className="h3">Films</div>
               </SectionHeader>
               {filmData.map((item, index) => (
-                <TableRow key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+                <TableRow key={index} as="div">
                   <span className="title">{item.title}</span>
                   <span className="category">{item.category}</span>
                   <span className="detail">{item.detail}</span>
-                  <span className="action">
-                    {item.action} <DiagonalArrow />
-                  </span>
                 </TableRow>
               ))}
             </ListSection>
@@ -248,13 +245,10 @@ const ListView = () => {
                 <div className="h3">Anime</div>
               </SectionHeader>
               {animeData.map((item, index) => (
-                <TableRow key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+                <TableRow key={index} as="div">
                   <span className="title">{item.title}</span>
                   <span className="category">{item.category}</span>
                   <span className="detail">{item.detail}</span>
-                  <span className="action">
-                    {item.action} <DiagonalArrow />
-                  </span>
                 </TableRow>
               ))}
             </ListSection>
@@ -264,13 +258,10 @@ const ListView = () => {
                 <div className="h3">Games</div>
               </SectionHeader>
               {gameData.map((item, index) => (
-                <TableRow key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+                <TableRow key={index} as="div">
                   <span className="title">{item.title}</span>
                   <span className="category">{item.category}</span>
                   <span className="detail">{item.detail}</span>
-                  <span className="action">
-                    {item.action} <DiagonalArrow />
-                  </span>
                 </TableRow>
               ))}
             </ListSection>

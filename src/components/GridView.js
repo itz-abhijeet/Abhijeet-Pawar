@@ -233,7 +233,7 @@ const GridView = () => {
       bg: "/project_aircraft.webp",
       icon: <FaPlane />,
       label: "AIRCRAFT",
-      github: "https://github.com/itz-abhijeet"
+      github: "https://github.com/itz-abhijeet/Air-Defense-Using-Artificial-Intelligence"
     },
     {
       title: "AWS Cloud DevOps Pipeline",
@@ -244,7 +244,7 @@ const GridView = () => {
       color: "#f97316",
       icon: <FaCloud />,
       label: "AWS",
-      github: "https://github.com/itz-abhijeet"
+      github: "https://github.com/itz-abhijeet/cloud-cicd-project"
     },
     {
       title: "Smart Enterprise ERP Platform",
@@ -277,7 +277,7 @@ const GridView = () => {
       color: "#22c55e",
       icon: <FaCalendarAlt />,
       label: "INTELLIGENT",
-      github: "https://github.com/itz-abhijeet"
+      github: "https://github.com/itz-abhijeet/PlanPal"
     },
     {
       title: "Android Radar Synthetic Simulator",
@@ -288,7 +288,7 @@ const GridView = () => {
       color: "#e11d48",
       icon: <FaAndroid />,
       label: "ANDROID",
-      github: "https://github.com/itz-abhijeet"
+      github: "https://github.com/itz-abhijeet/Air-Craft-Detection-Radar-Simulator-Android-app-"
     }
   ];
 
@@ -301,8 +301,8 @@ const GridView = () => {
     { key: 'automation', label: 'automation' }
   ];
 
-  const filteredItems = filter === 'all' 
-    ? items 
+  const filteredItems = filter === 'all'
+    ? items
     : items.filter(item => item.category === filter);
 
   return (
@@ -316,11 +316,11 @@ const GridView = () => {
             A comprehensive compilation of side projects, research publications, automation scripts, and mobile creations built throughout my developer journey.
           </div>
         </GridHeader>
-        
+
         <FilterBar>
           {categories.map((cat) => (
-            <FilterButton 
-              key={cat.key} 
+            <FilterButton
+              key={cat.key}
               active={filter === cat.key}
               onClick={() => setFilter(cat.key)}
             >
@@ -328,7 +328,7 @@ const GridView = () => {
             </FilterButton>
           ))}
         </FilterBar>
-        
+
         <MixContainer>
           {filteredItems.map((item, index) => (
             <MixCard key={index}>

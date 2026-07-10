@@ -534,7 +534,7 @@ const GamesList = styled.div`
   gap: 1.5rem;
 `;
 
-const GameCard = styled.a`
+const GameCard = styled.div`
   display: flex;
   flex-direction: column;
   aspect-ratio: 1.2;
@@ -1003,23 +1003,23 @@ const MeView = () => {
             </GamerCard>
             
             <GamesList>
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_valorant.webp">
+              <GameCard bg="/game_valorant.webp">
                 <span className="game-title">Valorant</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_cricket.webp">
+              <GameCard bg="/game_cricket.webp">
                 <span className="game-title">Cricket 19</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_gta5.webp">
+              <GameCard bg="/game_gta5.webp">
                 <span className="game-title">GTA 5</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_forza.webp">
+              <GameCard bg="/game_forza.webp">
                 <span className="game-title">Forza Horizon 6</span>
               </GameCard>
 
-              <GameCard href="https://youtube.com" target="_blank" rel="noopener noreferrer" bg="/game_chameleon.webp">
+              <GameCard bg="/game_chameleon.webp">
                 <span className="game-title">Meccha Chameleon</span>
               </GameCard>
             </GamesList>
