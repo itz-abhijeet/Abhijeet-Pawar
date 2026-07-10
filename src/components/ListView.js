@@ -172,11 +172,6 @@ const TableRow = styled.a`
   }
 `;
 
-const DiagonalArrow = () => (
-  <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M6.61736 0.816602H1.33366V0.0166016H7.58366H7.98366V0.416602V6.6666H7.18366V1.38167L1.28248 7.28282L0.716797 6.71713L6.61736 0.816602Z" />
-  </svg>
-);
 
 const ListView = () => {
   const filmData = [
